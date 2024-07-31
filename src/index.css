@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    margin:0;
+    width: 100vw;
+    height: 100vh;
+    overflow-x: hidden;
+}
+
+@font-face {
+    font-family: "Satoshi-Bold";
+    src: url("./fonts/Satoshi-Bold.ttf") format("opentype");
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Satoshi-Regular";
+    src: url("./fonts/Satoshi-Regular.ttf") format("opentype");
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Poppins";
+    src: url("./fonts/Poppins-Light.ttf") format("opentype");
+    font-style: normal;
+    font-display: swap;
+}
